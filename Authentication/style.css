@@ -1,0 +1,54 @@
+body{
+    font-family: Arial;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.error{
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    line-height: 15px;
+}
+
+.blockAut {
+    width: 265px;
+    height: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -230px 0 0 -125px;
+    line-height: 10px;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    margin: 0 auto;
+    color: white;
+    padding: 10px 32px;
+    display: block;
+    font-size: 15px;
+}
+
+.tableProfile{
+    vertical-align: middle;
+    horiz-align: center;
+}
+
+.profile {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -125px 0 0 -125px;
+    line-height: 5px;
+}
+.Esc{
+    line-height: 30px;
+    display: block;
+    text-align: center;
+    color: brown;
+}
